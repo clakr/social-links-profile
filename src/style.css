@@ -7,6 +7,8 @@
   --color-grey: #333333;
   --color-white: #FFFFFF;
   --color-neon-green: #C4F82A;
+
+  --breakpoint-sm: 640px;
 }
 
 :root {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -18,19 +18,19 @@
   <body>
     <main class="grid place-items-center min-h-[100svh] bg-black text-white">
       <h1 class="sr-only"></h1>
-      <article class="bg-dark-grey p-[2.4rem] items-center text-center rounded-[1.2rem] space-y-[2.4rem] w-[calc(100vw-48px)]">
+      <article class="bg-dark-grey p-[2.4rem] text-center rounded-[1.2rem] space-y-[2.4rem] w-[calc(100vw-48px)] max-w-[38.4rem] sm:p-[4rem]">
         <img src="/avatar-jessica.jpeg" alt="Jessica's avatar" class="rounded-full size-[8.8rem] mx-auto">
         <section class="space-y-[.4rem]">
           <h2 class="text-[2.4rem] leading-[150%]">Jessica Randall</h2>
           <span class="text-[1.4rem] leading-[150%] font-bold text-neon-green">London, United Kingdom</span>
         </section>
         <p class="text-[1.4rem] leading-[150%]">"Front-end developer and avid reader."</p>
-        <ul class="space-y-[1.6rem] *:text-[1.4rem] *:leading-[150%] *:font-bold *:bg-grey *:py-[1.2rem] *:rounded-[.8rem] *:cursor-pointer hover:*:bg-neon-green hover:*:text-black">
-          <li>GitHub</li>
-          <li>Frontend Mentor</li>
-          <li>LinkedIn</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
+        <ul class="space-y-[1.6rem] [&>li>a]:text-[1.4rem] [&>li>a]:leading-[150%] [&>li>a]:font-bold [&>li>a]:bg-grey [&>li>a]:py-[1.2rem] [&>li>a]:rounded-[.8rem] [&>li>a]:cursor-pointer [&>li>a]:block hover:[&>li>a]:bg-neon-green hover:[&>li>a]:text-black">
+          <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+          <li><a href="https://frontendmentor.io/" target="_blank">Frontend Mentor</a></li>
+          <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+          <li><a href="https://instagram.com/" target="_blank">Instagram</a></li>
         </ul>
       </article>
     </main>
