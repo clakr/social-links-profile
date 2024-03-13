@@ -16,8 +16,23 @@
     <script type="module" src="src/main.ts" async></script>
   </head>
   <body>
-    <main>
+    <main class="grid place-items-center min-h-[100svh] bg-black text-white">
       <h1 class="sr-only"></h1>
+      <article class="bg-dark-grey p-[2.4rem] items-center text-center rounded-[1.2rem] space-y-[2.4rem] w-[calc(100vw-48px)]">
+        <img src="/avatar-jessica.jpeg" alt="Jessica's avatar" class="rounded-full size-[8.8rem] mx-auto">
+        <section class="space-y-[.4rem]">
+          <h2 class="text-[2.4rem] leading-[150%]">Jessica Randall</h2>
+          <span class="text-[1.4rem] leading-[150%] font-bold text-neon-green">London, United Kingdom</span>
+        </section>
+        <p class="text-[1.4rem] leading-[150%]">"Front-end developer and avid reader."</p>
+        <ul class="space-y-[1.6rem] *:text-[1.4rem] *:leading-[150%] *:font-bold *:bg-grey *:py-[1.2rem] *:rounded-[.8rem] *:cursor-pointer hover:*:bg-neon-green hover:*:text-black">
+          <li>GitHub</li>
+          <li>Frontend Mentor</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+      </article>
     </main>
   </body>
 </html>

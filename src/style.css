@@ -1,1 +1,14 @@
-@import 'tailwindcss';
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+@theme {
+  --color-black: #141414;
+  --color-dark-grey: #1F1F1F;
+  --color-grey: #333333;
+  --color-white: #FFFFFF;
+  --color-neon-green: #C4F82A;
+}
+
+:root {
+  font-size: 10px;
+}
